@@ -29,6 +29,7 @@
     }
 
     div.gallery {
+        position: relative;
         margin: 5px;
         border: 1px solid #ccc;
         float: left;
@@ -44,6 +45,18 @@
         width: auto;
         object-fit: cover;
     }
+
+    div.gallery .year-bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 14px;
+    }
 </style>
 
 <head>
@@ -54,7 +67,6 @@
     <div class="main-content">
         <p style="text-align:center;"><img src="./images/logo.png" width="200" height="200" text-align:center /></p>
 
-        <h1>Under Construction</h1>
         <br><a style=" color:#000079; font-size:22px;"
             href="http://bo.io.gov.mo/bo/ii/2016/31/anotariais_cn.asp#597">Constitution/章程</a><br>
         <br>
@@ -68,34 +80,42 @@
         <div class="gallery">
             <a target="_blank" href="images/2023.jpg">
                 <img src="images/2023.jpg" alt="2023"></a>
+            <div class="year-bar">2023</div>
         </div>
         <div class="gallery">
             <a target="_blank" href="images/2022.jpg">
                 <img src="images/2022.jpg" alt="2022"></a>
+            <div class="year-bar">2022</div>
         </div>
         <div class="gallery">
             <a target="_blank" href="images/2021.jpg">
                 <img src="images/2021.jpg" alt="2021"></a>
+            <div class="year-bar">2021</div>
         </div>
         <div class="gallery">
             <a target="_blank" href="images/2020.jpg">
                 <img src="images/2020.jpg" alt="2020"></a>
+            <div class="year-bar">2020</div>
         </div>
         <div class="gallery">
             <a target="_blank" href="images/2019.jpg">
                 <img src="images/2019.jpg" alt="2019"></a>
+            <div class="year-bar">2019</div>
         </div>
         <div class="gallery">
             <a target="_blank" href="images/2018.jpg">
                 <img src="images/2018.jpg" alt="2018"></a>
+            <div class="year-bar">2018</div>
         </div>
         <div class="gallery">
             <a target="_blank" href="images/2017.jpg">
                 <img src="images/2017.jpg" alt="2017"></a>
+            <div class="year-bar">2017</div>
         </div>
         <div class="gallery">
             <a target="_blank" href="images/2016.jpg">
                 <img src="images/2016.jpg" alt="2016"></a>
+            <div class="year-bar">2016</div>
         </div>
     </div>
 </body>
